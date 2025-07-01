@@ -8,13 +8,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/Theme.Material3.DayNight">
         <activity
-            android:name=".TestInputActivity"
+            android:name=".KeyboardEnableActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <service
             android:name=".HexInputMethodService"
             android:exported="false"
