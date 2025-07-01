@@ -1,5 +1,3 @@
-# Hex Keyboard-バイナリ編集向け 16 進数入力 IME
-
 ## これは何?
 
 - Android EditText で 16 進数入力するためのカスタム KeyBoard
