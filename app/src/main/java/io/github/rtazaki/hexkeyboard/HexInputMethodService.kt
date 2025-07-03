@@ -17,6 +17,8 @@ class HexInputMethodService : InputMethodService() {
 
     private var isShiftLock = true
 
+    override fun onEvaluateFullscreenMode() = false
+
     override fun onCreateInputView(): View {
         val themedContext = ContextThemeWrapper(this, style.Theme_Material3_DayNight)
         val inflater = LayoutInflater.from(themedContext)
